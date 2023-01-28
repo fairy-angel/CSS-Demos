@@ -1,7 +1,14 @@
 # CSS-Demos
 
-Housekeeping <3
+**Set-up:**
 
-Folders and Files should be named using camelCase!
+The only extension needed is *live server* (or your preferred equivalent), although I recommend also installing Better Comments- Aaron Bond  
 
-everything else should be named using snake case
+**Housekeeping <3**
+Folders and Files should be named using *camelCase*!
+
+everything else should be named using *snake case*
+
+**Comment notes:**
+comments with '*' are guides to the code
+comments with '>>' are code you can uncomment to test as you go

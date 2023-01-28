@@ -19,10 +19,12 @@ body{
     top: 50%;
     left: 50%;
     
-    /*  transform-property is asking which property we should be changing, so
-    look to the .btn:hover to see what we are manipulating, in this case the transform property*/
+cutest lillist
+box everr meow
 
-    /* transition-property: transform; */
+    /** transform-property is asking which property we should be changing, so look to the .btn:hover to see what we are manipulating, in this case the transform property */
+
+    /*>> transition-property: transform; */
 
     /* transition-duration is asking how long it should take for the transition to complete */
 
@@ -47,15 +49,19 @@ body{
     /* transition: transform 0.3s; */
 
     /* we can add each of the properties to our transition by separating them with commas as follows */
-    transition: tranform 0.3s, background-color 0.3s, color 0.3s;
+    /* transition: tranform 0.3s, background-color 0.3s, color 0.3s; */
 
-    /* however */
+    /* this is great, but if we had more than 3 properties it would take a lot of time If you know that our ordered properties are going to all have the same timeframe, we can use transition:all */
+
+    transition: all 0.5s;
+
+    /* tada!! now we have a lovely animated button */
 }
 
 /* with .btn:hover, we are using transform:translateY to float the button up when hovering */
 /* but, hover alone happens too abruptly, so we're going to add transition-properties to our .btn class above in order to create some smoothness*/
 .btn:hover{
-    transform: translateY(-25px);
+    transform: translateY(-55px);
 
     /* what if we want more than one thing to happen upon hover? no worries! */
    
